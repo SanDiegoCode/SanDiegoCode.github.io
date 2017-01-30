@@ -3999,3 +3999,10 @@
 					}
 
 	}
+
+.center {
+	text-align: center;
+}
+.header1 {
+	font-size: 2em;
+}
