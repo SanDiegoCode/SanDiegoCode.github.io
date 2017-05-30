@@ -4009,3 +4009,23 @@
 	font-size: 2em;
 }
 
+
+.mobile-only {
+    display: none !important;
+}
+
+@media screen and (max-width: 980px) {
+    .mobile-only {
+        display: block !important;
+    }
+}
+
+.desktop-only {
+    display: block;
+}
+
+@media screen and (max-width: 980px) {
+    .desktop-only {
+        display: none !important;
+    }
+}
