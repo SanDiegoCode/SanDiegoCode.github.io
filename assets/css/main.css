@@ -3335,8 +3335,8 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
-		background-position: center center;
+        background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/backgrounds/back1.jpg);
+        background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
 		min-height: 100vh;
@@ -3376,6 +3376,8 @@
 			text-align: right;
 			vertical-align: middle;
 			z-index: 1;
+/*            background-color: rgba(0,255,255,0.2)*/
+            background-color: rgba(0,0,0,0)
 		}
 
 			#banner .content header {
